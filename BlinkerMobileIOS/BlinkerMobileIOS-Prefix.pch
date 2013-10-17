@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'BlinkerMobileIOS' target in the 'BlinkerMobileIOS' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+/*#ifdef DEBUG
+  #define kCLIENTID @"d177688f451be101f61e9564b0d6b02f0670c62a58859d195ebb5eceff5af0c9"
+  #define kSECRET @"8b5bdf5ea5201447ae378e7a114b1db85af940e530a78fd146db49790d8f525c"
+  #define BASE_HOST @"http://localhost:3000"
+#else
+*/
+  #define kCLIENTID @"9ab9f92b9361c4b2817f31ac0da3ce80712c87dcc4fe877e714a77c93095ec64"
+  #define kSECRET @"e33b6437e1ecc5a30dd70356b00ebc2b0f48e000946fd40e86c0e0ab50991ca6"
+  #define BASE_HOST @"http://staging.blinker.com"
+
+//#endif
